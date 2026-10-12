@@ -1,0 +1,157 @@
+body{
+    margin: 0 auto;
+    background-color: beige;
+}
+.header{
+    padding:20px;
+    background-color: black;
+}
+.header h2{
+    float: left;
+    color: beige;
+}
+.header br{
+    clear:both;
+}
+
+.header nav{
+    text-align: right;
+    margin-right:20px;
+}
+.header nav ul{
+    list-style-type:none;
+}
+.header nav ul li{
+    display: inline;
+    margin:20px;
+}
+.header nav ul li a{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    transition-duration:0.6s;
+}
+.header nav ul li a:hover{
+    color:blueviolet;
+    transition: all;
+    transition-duration:0.6s;
+}
+.banner_section{
+    background-image: url(image.JPG);
+    background-size: cover;
+    background-position:center;
+    padding:50px;
+    height:350px;
+}
+.banner_text{
+    width:50%;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    font-size:20px;
+}
+.banner_text h2{
+    color:blueviolet ;
+}
+.banner_text button, .section2_text button{
+    margin-bottom: 40px;
+    background-color: blueviolet;
+    border-radius:5px;
+    color: bisque;
+    padding: 10px;
+}
+.banner_text button:hover{
+    background-color: white;
+    color:blueviolet;
+    transition: all;
+    transition-duration: 0.6s;
+}
+.section{
+    background-color: beige;
+    padding:20px;
+}
+
+.section_header h2,.section2_header{
+    text-align: center;
+    color: blueviolet;
+    font-size:30px;
+    text-shadow:1px 2px 1px rgba(0,0,0,0.7);
+
+}
+.section_cards{
+    display: flex;
+    padding:20px;
+    gap: 20px;
+}
+
+.cards{
+    padding:20px;
+    text-align:justify;
+    box-shadow:3px 5px 3px rgba(0,0,0,0.7);
+    border-radius:10px;
+    transition-duration: 0.6s;
+
+}
+.cards:hover{
+    transform: scale(1.1); 
+    transition:all;
+    transition-duration: 0.6s;
+}
+
+.section2{
+    padding: 30px;
+}
+.section2_image{
+    float: left;
+}
+.section2_image img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.section2_text{
+    font-size: 20px;
+    width: 50%;
+    float: right;
+    margin-right: 40px;
+    line-height: 2em;
+
+}
+.section2 br{
+    clear: both;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    background-color: rgb(39,35,35);
+    color: white;
+}
+.footer_col{
+    width: 300px;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 10px;
+    transition-duration: 0.9s;
+    font-size: 17px;
+}
+.footer-col h3{
+    color: blueviolet;
+}
+.footer_col ul a{
+    text-decoration: none;
+    color: beige;
+    transition-duration: 0.6s;
+}
+.footer_col ul a:hover{
+    color: blueviolet;
+    margin-left:10px;
+    transition: all;
+    transition-duration: 0.6s;
+
+}
+.footer_col ul li{
+    margin-bottom: 15px;
+}
